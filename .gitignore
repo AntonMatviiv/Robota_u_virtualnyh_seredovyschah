@@ -1,0 +1,6 @@
+anton_env/*
+pycache/
+.coverage
+coverage.xml
+temp.csv
+*.npz
