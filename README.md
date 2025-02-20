@@ -1,54 +1,33 @@
-Звіт до роботи
-Тема: Робота у віртуальних середовищах
-Мета роботи: Ознайомити з принципами ізольованих віртуальних середовищ у Python, розглянути використання pipenv, venv, poetry  для створення, активації та керування середовищами.
+# Звіт до роботи
+## **Тема**: Робота у віртуальних середовищах
+## **Мета роботи**: Ознайомити з принципами ізольованих віртуальних середовищ у Python, розглянути використання pipenv, venv, poetry  для створення, активації та керування середовищами.
 ---
-Виконання роботи
-Наступні команди виконав у терміналі (Terminal -> New Terminal (Bash terminal)):
+### Скріншоти:
 
-👍  pwd
-➕  cd KN-41_sol/
-👍  cd testing/1_lab
-👍  python -V 
-👍  pip -V 
-👍  python -m ensurepip --upgrade 
-👍  pip list # виведе всі глобальні пакети
-👍  python -m venv sandra_env # створилась окрема папка
-🟥  source sandra_env/bin/activate   # навіть через git bush не пішло
-🟩  source sandra_env/Scripts/activate
-🟨  pip install requests  #виникли труднощі з папками (попри активацію ВС, інсталювало глобально)
-➕  python -m pip install --upgrade pip
-🟥  python 1.py
-🟩  python /c/Git_VSC/KN-41_sol/testing/1.py
-👍  pip freeze > requirements.txt
-👍  pip list
-👍  deactivate
-🟨  pip install pipenv
-👍  pipenv -h
-👍  cd KN-41_sol/testing/1_lab
-👍  pipenv install requests
-👍  pipenv shell
-👍  python 1.pyс
-🟥  deactivate
-🟩  exit
-
-Скріншоти:
-![alt text](./images_all/image.png)
-![alt text](./images_all/image2.png)
-![alt text](./images_all/image3.png)
-![alt text](./images_all/image4.png)
-![alt text](./images_all/image5.png)
-![alt text](./images_all/image6.png)
-![alt text](./images_all/image7.png)
-![alt text](./images_all/image8.png)
-![alt text](./images_all/image9.png)
-![alt text](./images_all/image10.png)
-![alt text](./images_all/image11.png)
-![alt text](./images_all/image12.png)
-
+![alt text](./img/img1.jpg)
+![alt text](./img/img2.jpg)
+![alt text](./img/img3.jpg)
+![alt text](./img/img4.jpg)
+![alt text](./img/img5.jpg)
+![alt text](./img/img6.jpg)
+![alt text](./img/img7.jpg)
+![alt text](./img/img8.jpg)
+![alt text](./img/img9.jpg)
+![alt text](./img/img10.jpg)
+![alt text](./img/img11.jpg)
+![alt text](./img/img12.jpg)
+![alt text](./img/img13.jpg)
+![alt text](./img/img14.jpg)
+![alt text](./img/img15.jpg)
+![alt text](./img/img16.jpg)
+![alt text](./img/img17.jpg)
+![alt text](./img/img18.jpg)
+![alt text](./img/img19.jpg)
+![alt text](./img/img20.jpg)
+![alt text](./img/img21.jpg)
 -----------------------------------
 
-
-Висновок:
+## **Висновок**: Ознайомився з принципами ізольованих віртуальних середовищ у Python, розглянув використання pipenv, venv, poetry  для створення, активації та керування середовищами.
 
 
 ---
